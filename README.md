@@ -53,17 +53,7 @@ Website-Blocker-Pro/
 
 ---
 
-## ⚙️ Installation & Setup
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/alimemonnn/website-blocker-pro.git
-cd website-blocker-System
-
-2. Run the Application
-python blocker.py
-
-🔐 Important Note (Run as Admin / Root)
+###🔐 Important Note (Run as Admin / Root)
 
 This project modifies the system hosts file, so it must be run with administrator privileges:
 
