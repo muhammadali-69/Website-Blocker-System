@@ -1,4 +1,4 @@
-### 🛡️ Website Blocker System
+## 🛡️ Website Blocker System
 
 <p align="center">
   <b>A modern, password-protected website blocking application built with Python and Tkinter.</b>
@@ -8,6 +8,7 @@
   A secure desktop tool for blocking distracting websites through the system <code>hosts</code> file with automatic backup, logging, and a polished GUI.
 </p>
 
+---
 ---
 
 ## 📖 Overview
