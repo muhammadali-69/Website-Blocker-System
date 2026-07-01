@@ -8,7 +8,7 @@
   A secure desktop tool for blocking distracting websites through the system <code>hosts</code> file with automatic backup, logging, and a polished GUI.
 </p>
 
----
+
 ---
 
 ## 📖 Overview
