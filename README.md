@@ -1,115 +1,174 @@
-# 🛡️ Website Blocker Pro
+### 🛡️ Website Blocker System
 
-A modern, secure, and GUI-based **Website Blocking System** built with Python and Tkinter.  
-It allows users to block distracting websites by modifying the system `hosts` file with **password protection, admin verification, logging, and a professional dashboard UI**.
+<p align="center">
+  <b>A modern, password-protected website blocking application built with Python and Tkinter.</b>
+</p>
 
----
-
-## 🚀 Features
-
-- 🌐 Block popular websites (Facebook, YouTube, Instagram, etc.)
-- 🔓 Unblock selected websites easily
-- 🔐 Secure password system (SHA-256 hashed)
-- 👤 Forgot password recovery (username verification)
-- 🧠 Automatic backup of system hosts file
-- 🧾 Activity logging system
-- 🖥️ Modern professional Tkinter dashboard UI
-- ⚡ Admin/root privilege detection
-- 💾 Cross-platform support (Windows, Linux, macOS)
+<p align="center">
+  A secure desktop tool for blocking distracting websites through the system <code>hosts</code> file with automatic backup, logging, and a polished GUI.
+</p>
 
 ---
 
-## 🖼️ UI Preview
+## 📖 Overview
 
-> Add screenshots of your application here after running it.
+**Website Blocker System** is a Python-based desktop application designed to help users improve productivity by blocking selected websites.  
+It modifies the system `hosts` file, redirects chosen domains to `127.0.0.1`, and protects all actions with password verification and admin/root checks.
+---
 
-Example sections to include:
-- Dashboard Overview
-- Block Websites Panel
-- Unblock Selection Window
-- Password Prompt Screens
+## ✨ Features
+
+- 🌐 Block websites such as Facebook, Instagram, TikTok, YouTube, and more.
+- 🔓 Unblock websites individually from the blocked list.
+- 🔐 Password-protected access using SHA-256 hashing.
+- 👤 Forgot password recovery through username verification.
+- 🧠 Automatic backup of the system `hosts` file.
+- 🧾 Activity logging for block and unblock actions.
+- ⚡ Admin/root privilege detection before modifying system files.
+- 🖥️ Modern, dashboard-style Tkinter GUI.
+- 💾 Works on Windows, Linux, and macOS.
+
+---
+
+## 🗂️ Project Files
+
+| File | Description |
+|------|-------------|
+| `blocker.py` | Main Python application containing the full website blocker logic and GUI. |
+| `README.md` | Project documentation and usage guide. |
 
 ---
 
 ## 🛠️ Tech Stack
 
 - Python 3.x
-- Tkinter (GUI Framework)
-- OS Module
-- Hashlib (Password Security)
-- Logging Module
-- Shutil (File Backup)
-- ctypes (Admin Privilege Check)
+- Tkinter
+- `os`
+- `shutil`
+- `hashlib`
+- `logging`
+- `ctypes`
+- `time`
 
 ---
 
-## 📁 Project Structure
+## 📦 Installation
 
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/website-blocker-pro.git
+cd website-blocker-pro
+```
+
+### 2. Run the application
+```bash
+python blocker.py
+```
+
+### 3. Linux/macOS
+```bash
+sudo python3 blocker.py
+```
+
+---
+
+## 📋 Requirements
+
+- Python 3.x installed
+- Tkinter available in your Python environment
+- Administrator/root privileges
+- Permission to modify the system `hosts` file
+
+---
+
+## ⚙️ How It Works
+
+1. The application starts and verifies whether a password exists.
+2. If needed, the user is prompted to create or enter a password.
+3. The app checks for administrator/root privileges.
+4. A backup of the `hosts` file is created automatically.
+5. Selected websites are redirected to `127.0.0.1`.
+6. All important actions are written to `blocker.log`.
+
+---
+
+## 🌐 Supported Websites To Restrict Accounts
+
+- Facebook
+- Instagram
+- TikTok
+- Snapchat
+- LinkedIn
+- Pinterest
+- Reddit
+- YouTube
+
+---
+
+## 🔐 Security Features
+
+- Passwords are stored as SHA-256 hashes.
+- The app verifies admin/root access before editing system files.
+- The original `hosts` file is backed up before changes.
+- Logging provides a record of important actions.
+
+---
+
+## 🖼️ Screenshots
+
+> Add your screenshots here after running the application.
+
+- Dashboard view
+- Block websites selection window
+- Unblock websites window
+- Password prompt window
+
+---
+
+## 📁 Suggested Folder Structure
+
+```bash
 Website-Blocker-Pro/
-│
-├── blocker.py # Main Python application
-├── README.md # Project documentation
-
-
----
-
-###🔐 Important Note (Run as Admin / Root)
-
-This project modifies the system hosts file, so it must be run with administrator privileges:
-
-Windows:
-Right-click CMD / Terminal → Run as Administrator
-Linux / macOS:
-
-sudo python blocker.py
-
----
-🧠 How It Works
-The app modifies the system hosts file
-Selected websites are redirected to 127.0.0.1
-This blocks access to those websites
-Password verification protects unauthorized access
-Backup of hosts file is created automatically before changes
----
-
-
-🔒 Security Features
-Passwords stored using SHA-256 hashing
-Admin/root privilege verification
-Hosts file backup system
-Secure authentication before blocking/unblocking
+├── blocker.py
+├── README.md
+└── assets/
+    ├── dashboard.png
+    ├── block-window.png
+    ├── unblock-window.png
+    └── password-prompt.png
+```
 
 ---
 
-🌐 Supported Websites
-Facebook
-Instagram
-TikTok
-Snapchat
-LinkedIn
-Pinterest
-Reddit
-YouTube
+## 🧪 Future Improvements
+
+- ⏰ Scheduled blocking.
+- 📊 Usage analytics dashboard.
+- 🌍 Custom website input.
+- 🔔 Notification system.
+- ☁️ Cloud sync support.
+- 📱 Mobile companion app.
 
 ---
-📌 Future Improvements
-⏰ Schedule-based website blocking
-📊 Usage analytics dashboard
-🌍 Custom website input feature
-🔔 Notification system
-☁️ Cloud sync support
-📱 Mobile companion app
+
+## 👨‍💻 Developers
+
+- Muhammad Ali Memon
+- Sigatullah Memon
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.  
+See the `LICENSE` file for details.
 
 ---
-📜 License
 
-This project is licensed under the MIT License – feel free to use and modify.
+## ⭐ Support
 
----
-⭐ Support
+If you find this project useful:
 
-If you like this project:
-
-⭐ Star the repository
-🍴 Fork it
-🚀 Share it with others
+- Star the repository.
+- Fork the project.
+- Share it with others.
+- Contribute improvements.
