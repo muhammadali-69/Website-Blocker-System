@@ -18,7 +18,7 @@ REDIRECT_IP = "127.0.0.1"
 PASSWORD_FILE = "password.txt"
 USERNAME = "Muhammad"
 
-# Setup logging
+# Setup logging 
 logging.basicConfig(filename="blocker.log", level=logging.INFO, format="%(asctime)s - %(message)s")
 
 def is_admin():
