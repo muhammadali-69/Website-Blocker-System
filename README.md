@@ -214,19 +214,19 @@ More websites can easily be added.
 
 ## 🚫 Blocked Websites
 
-![Unblock](assets/unblock.png)
+![Unblock](assets/picture4.png)
 
 ---
 
 ## 🔒 Password Window
 
-![Password](assets/password.png)
+![Password](assets/picture5.png)
 
 ---
 
 ## 📜 Activity Log
 
-![Logs](assets/log.png)
+![Logs](assets/picture6.png)
 
 ---
 
