@@ -1,99 +1,167 @@
-## 🛡️ Website Blocker System
+<div align="center">
 
-<p align="center">
-  <b>A modern, password-protected website blocking application built with Python and Tkinter.</b>
+# 🛡️ Website Blocker System
+
+### A Modern, Secure & Password-Protected Website Blocking Application
+
+<p>
+A powerful desktop application built with <strong>Python</strong> and <strong>Tkinter</strong> that helps improve productivity by blocking distracting websites through the system <code>hosts</code> file.
 </p>
 
-<p align="center">
-  A secure desktop tool for blocking distracting websites through the system <code>hosts</code> file with automatic backup, logging, and a polished GUI.
+<p>
+
+<img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python">
+
+<img src="https://img.shields.io/badge/Tkinter-GUI-success?style=for-the-badge">
+
+<img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
+
+<img src="https://img.shields.io/github/stars/muhammadali-69/Website-Blocker-System?style=for-the-badge">
+
+<img src="https://img.shields.io/github/forks/muhammadali-69/Website-Blocker-System?style=for-the-badge">
+
+<img src="https://img.shields.io/github/issues/muhammadali-69/Website-Blocker-System?style=for-the-badge">
+
 </p>
 
+⭐ Improve Productivity • 🔐 Secure • ⚡ Fast • 🌍 Cross Platform
+
+</div>
 
 ---
 
-## 📖 Overview
+# 📖 Overview
 
-**Website Blocker System** is a Python-based desktop application designed to help users improve productivity by blocking selected websites.  
-It modifies the system `hosts` file, redirects chosen domains to `127.0.0.1`, and protects all actions with password verification and admin/root checks.
----
+Website Blocker System is a professional desktop application developed in Python that helps users stay focused by blocking distracting websites.
 
-## ✨ Features
+The application securely edits the system **hosts** file, redirects selected websites to **127.0.0.1**, protects all actions using password authentication, creates automatic backups, and records every action in a log file.
 
-- 🌐 Block websites such as Facebook, Instagram, TikTok, YouTube, and more.
-- 🔓 Unblock websites individually from the blocked list.
-- 🔐 Password-protected access using SHA-256 hashing.
-- 👤 Forgot password recovery through username verification.
-- 🧠 Automatic backup of the system `hosts` file.
-- 🧾 Activity logging for block and unblock actions.
-- ⚡ Admin/root privilege detection before modifying system files.
-- 🖥️ Modern, dashboard-style Tkinter GUI.
-- 💾 Works on Windows, Linux, and macOS.
+Whether you're a student, programmer, freelancer, or professional, this application helps reduce distractions and increase productivity.
 
 ---
 
-## 🗂️ Project Files
+# ✨ Features
 
-| File | Description |
-|------|-------------|
-| `blocker.py` | Main Python application containing the full website blocker logic and GUI. |
-| `README.md` | Project documentation and usage guide. |
+| Feature | Description |
+|----------|-------------|
+| 🌐 Website Blocking | Block popular distracting websites instantly |
+| 🔓 Website Unblocking | Unblock websites anytime |
+| 🔐 Password Protection | Passwords secured using SHA-256 hashing |
+| 👤 Forgot Password | Recover password through username verification |
+| 🧾 Activity Logging | Logs all block/unblock actions |
+| 📂 Automatic Backup | Backup hosts file before modifications |
+| ⚡ Admin Detection | Checks administrator/root privileges |
+| 🖥️ Modern GUI | Clean and user-friendly Tkinter interface |
+| 🌍 Cross Platform | Supports Windows, Linux & macOS |
+| 🚀 Lightweight | Fast startup and low memory usage |
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Built With
 
 - Python 3.x
 - Tkinter
-- `os`
-- `shutil`
-- `hashlib`
-- `logging`
-- `ctypes`
-- `time`
+- hashlib
+- shutil
+- logging
+- os
+- ctypes
+- time
 
 ---
 
-## 📦 Installation
+# 📂 Project Structure
 
-### 1. Clone the repository
+```text
+Website-Blocker-System/
+│
+├── assets/
+│   ├── dashboard.png
+│   ├── login.png
+│   ├── block.png
+│   ├── unblock.png
+│   ├── password.png
+│   └── log.png
+│
+├── main.py
+├── blocker.py
+├── README.md
+├── LICENSE
+├── requirements.txt
+├── password.txt
+└── blocker.log
+```
+
+---
+
+# 🚀 Quick Start
+
+## 1️⃣ Clone Repository
+
 ```bash
-git clone https://github.com/your-username/Website-Blocker-System.git
+git clone https://github.com/muhammadali-69/Website-Blocker-System.git
+```
+
+## 2️⃣ Enter Project Folder
+
+```bash
 cd Website-Blocker-System
 ```
 
-### 2. Run the application
+## 3️⃣ Install Requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+## 4️⃣ Run Application
+
+### Windows
+
 ```bash
 python main.py
 ```
 
-### 3. Linux/macOS
+### Linux / macOS
+
 ```bash
 sudo python3 main.py
 ```
 
 ---
 
-## 📋 Requirements
+# 📋 Requirements
 
-- Python 3.x installed
-- Tkinter available in your Python environment
-- Administrator/root privileges
-- Permission to modify the system `hosts` file
-
----
-
-## ⚙️ How It Works
-
-1. The application starts and verifies whether a password exists.
-2. If needed, the user is prompted to create or enter a password.
-3. The app checks for administrator/root privileges.
-4. A backup of the `hosts` file is created automatically.
-5. Selected websites are redirected to `127.0.0.1`.
-6. All important actions are written to `blocker.log`.
+- Python 3.x
+- Tkinter
+- Administrator / Root privileges
+- Permission to modify the system hosts file
 
 ---
 
-## 🌐 Supported Websites To Restrict Accounts
+# ⚙️ How It Works
+
+1. Launch the application.
+
+2. Create a password if it's your first time.
+
+3. Login using your password.
+
+4. The application checks administrator privileges.
+
+5. A backup of the hosts file is created automatically.
+
+6. Select websites to block.
+
+7. The selected domains are redirected to **127.0.0.1**.
+
+8. All actions are stored inside **blocker.log**.
+
+---
+
+# 🌐 Supported Websites
+
+The application currently supports blocking:
 
 - Facebook
 - Instagram
@@ -103,93 +171,76 @@ sudo python3 main.py
 - Reddit
 - YouTube
 
----
-
-## 🔐 Security Features
-
-- Passwords are stored as SHA-256 hashes.
-- The app verifies admin/root access before editing system files.
-- The original `hosts` file is backed up before changes.
-- Logging provides a record of important actions.
+More websites can easily be added.
 
 ---
 
-## 🖼️ Screenshots
+# 🔐 Security Features
 
-- Dashboard view
-- Block websites selection window
-- Unblock websites window
-- Password prompt window
+✔ SHA-256 Password Encryption
 
-Picture 1.png
-picture 2.png
-picture 3.png
-picture 4.png
-picture 5.png
-picture 6.png
+✔ Administrator Privilege Verification
 
+✔ Automatic Hosts File Backup
 
+✔ Secure Password Recovery
+
+✔ Activity Logging
+
+✔ Safe Hosts File Editing
 
 ---
 
-## 📁 Suggested Folder Structure
+# 📸 Screenshots
 
-```bash
-Website-Blocker-System/
-├── main.py
-├── README.md
-├── LICENSE
-└── blocker.log
-└── password.txt
-└── assets/
-    ├── Picture 1.png
-    ├── Picture 2.png
-    ├── Picture 3.png
-    └── Picture 4.png
-    ├── Picture 5.png
-    └── Picture 6.png
+> Rename your images to lowercase names without spaces for better compatibility.
 
-```
+## 🏠 Dashboard
+
+![Dashboard](assets/dashboard.png)
 
 ---
 
-## 🧪 Future Improvements
+## 🔑 Login Screen
 
-- ⏰ Scheduled blocking.
-- 📊 Usage analytics dashboard.
-- 🌍 Custom website input.
-- 🔔 Notification system.
-- ☁️ Cloud sync support.
-- 📱 Mobile companion app.
+![Login](assets/login.png)
 
 ---
 
-## 👨‍💻 Developer
+## 🌐 Website Selection
 
-- Muhammad Ali Memon
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.  
-See the `LICENSE` file for details.
-
----
-### ⭐ Support
-
-
-If you like this project:
-
-- ⭐ Star the repository
-
-- 🍴 Fork it
-
-- 📢 Share it
-
+![Block](assets/block.png)
 
 ---
 
+## 🚫 Blocked Websites
 
-**Made with ❤️ Python At Sukkur IBA UNIVERSITY
+![Unblock](assets/unblock.png)
 
+---
+
+## 🔒 Password Window
+
+![Password](assets/password.png)
+
+---
+
+## 📜 Activity Log
+
+![Logs](assets/log.png)
+
+---
+
+# 📈 Performance
+
+- ⚡ Fast startup
+
+- 💾 Lightweight memory usage
+
+- 🛡️ Secure password hashing
+
+- 🌍 Cross-platform support
+
+- 🖥️ Responsive GUI
+
+---
