@@ -193,7 +193,6 @@ More websites can easily be added.
 
 # 📸 Screenshots
 
-> Rename your images to lowercase names without spaces for better compatibility.
 
 ## 🏠 Dashboard
 
