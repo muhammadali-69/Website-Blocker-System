@@ -197,19 +197,19 @@ More websites can easily be added.
 
 ## 🏠 Dashboard
 
-![Dashboard](assets/dashboard.png)
+![Dashboard](assets/Picture1.png)
 
 ---
 
 ## 🔑 Login Screen
 
-![Login](assets/login.png)
+![Login](assets/Picture2.png)
 
 ---
 
 ## 🌐 Website Selection
 
-![Block](assets/block.png)
+![Block](assets/Picture3.png)
 
 ---
 
