@@ -244,3 +244,290 @@ More websites can easily be added.
 - 🖥️ Responsive GUI
 
 ---
+
+# 🧪 Future Improvements
+
+The following features are planned for future releases:
+
+- ⏰ Schedule website blocking
+- 📊 Productivity analytics dashboard
+- 🌐 Add custom websites manually
+- 🔔 Desktop notifications
+- ☁️ Cloud synchronization
+- 🔑 Multiple user profiles
+- 📱 Android companion application
+- 🎨 Dark & Light themes
+- 🌍 Browser extension support
+- 📅 Daily and weekly productivity reports
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome and greatly appreciated!
+
+If you'd like to improve this project:
+
+### 1. Fork the Repository
+
+Click the **Fork** button on GitHub.
+
+### 2. Clone Your Fork
+
+```bash
+git clone https://github.com/your-username/Website-Blocker-System.git
+```
+
+### 3. Create a New Branch
+
+```bash
+git checkout -b feature/new-feature
+```
+
+### 4. Make Your Changes
+
+Implement your improvements.
+
+### 5. Commit Your Changes
+
+```bash
+git commit -m "Add new feature"
+```
+
+### 6. Push to GitHub
+
+```bash
+git push origin feature/new-feature
+```
+
+### 7. Create a Pull Request
+
+Open a Pull Request describing your changes.
+
+---
+
+# 🐞 Reporting Bugs
+
+Found a bug?
+
+Please open an Issue on GitHub and include:
+
+- Operating System
+- Python Version
+- Error Message
+- Steps to Reproduce
+- Screenshot (if available)
+
+---
+
+# 💡 Feature Requests
+
+Have an idea?
+
+Feel free to open an Issue describing your feature request.
+
+Suggestions are always welcome.
+
+---
+
+# ❓ Frequently Asked Questions
+
+### Why does the application require Administrator privileges?
+
+Because the application modifies the system **hosts** file.
+
+---
+
+### Is my password secure?
+
+Yes.
+
+Passwords are stored using **SHA-256 hashing**, which means the original password is never stored in plain text.
+
+---
+
+### Can I add more websites?
+
+Yes.
+
+Simply edit the website list inside the Python source code.
+
+---
+
+### Does it work offline?
+
+Yes.
+
+No internet connection is required.
+
+---
+
+### Which operating systems are supported?
+
+- Windows
+- Linux
+- macOS
+
+---
+
+# 📜 Changelog
+
+## Version 1.0
+
+Initial Release
+
+### Added
+
+- Website Blocking
+- Website Unblocking
+- Password Protection
+- Password Recovery
+- Activity Logging
+- Automatic Hosts Backup
+- Modern GUI
+- Admin Detection
+
+---
+
+# 🛡️ Security
+
+Security is one of the main goals of this project.
+
+Implemented protections include:
+
+- SHA-256 Password Encryption
+- Hosts File Backup
+- Administrator Verification
+- Secure File Handling
+- Action Logging
+
+If you discover a security issue, please report it responsibly by opening a GitHub Issue.
+
+---
+
+# 📚 Learning Purpose
+
+This project demonstrates practical implementation of:
+
+- Python Programming
+- Tkinter GUI Development
+- File Handling
+- Operating System Interaction
+- Password Hashing
+- Logging
+- Object-Oriented Programming
+- System Administration
+- Productivity Software Development
+
+---
+
+# 🌍 Compatibility
+
+| Operating System | Supported |
+|-----------------|-----------|
+| Windows | ✅ |
+| Linux | ✅ |
+| macOS | ✅ |
+
+---
+
+# 📊 Repository Information
+
+| Category | Details |
+|----------|---------|
+| Language | Python |
+| GUI | Tkinter |
+| License | MIT |
+| Platform | Windows, Linux, macOS |
+| Status | Active Development |
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+You are free to:
+
+- Use
+- Modify
+- Distribute
+- Fork
+- Improve
+
+Please refer to the **LICENSE** file for complete details.
+
+---
+
+# 👨‍💻 Developer
+
+<div align="center">
+
+## Muhammad Ali Memon
+
+**BS Artificial Intelligence Student**
+
+**Python Developer • Java Developer • AI Enthusiast**
+
+</div>
+
+### Connect With Me
+
+- **GitHub:** https://github.com/muhammadali-69
+
+> *(Add your LinkedIn or portfolio here if you'd like.)*
+
+---
+
+# ⭐ Support the Project
+
+If you found this project useful, please consider supporting it.
+
+⭐ Star this repository
+
+🍴 Fork the repository
+
+📢 Share it with others
+
+💡 Suggest new features
+
+🐞 Report bugs
+
+Every contribution helps improve the project.
+
+---
+
+# 🙏 Acknowledgements
+
+Special thanks to:
+
+- Python Community
+- Tkinter Developers
+- GitHub
+- Open Source Contributors
+
+---
+
+# 📬 Contact
+
+If you have questions or suggestions, feel free to connect through GitHub:
+
+**GitHub:** https://github.com/muhammadali-69
+
+---
+
+<div align="center">
+
+# ❤️ Thank You for Visiting
+
+If this project helped you,
+
+## ⭐ Please give it a Star ⭐
+
+Made with ❤️ using **Python**
+
+Developed by **Muhammad Ali Memon**
+
+© 2026 Muhammad Ali Memon. All Rights Reserved.
+
+</div>
