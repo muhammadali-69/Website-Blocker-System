@@ -164,10 +164,10 @@ Website-Blocker-System/
 
 ---
 
-## 👨‍💻 Developers
+## 👨‍💻 Developer
 
 - Muhammad Ali Memon
-- Sigatullah Memon
+
 ---
 
 ## 📜 License
@@ -191,4 +191,5 @@ If you like this project:
 ---
 
 
-**Made with ❤️ for Indus Week 2026 Hackathon**
+**Made with ❤️ Python At Sukkur IBA UNIVERSITY
+
