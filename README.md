@@ -68,7 +68,7 @@ python main.py
 
 ### 3. Linux/macOS
 ```bash
-sudo python3 blocker.py
+sudo python3 main.py
 ```
 
 ---
@@ -99,7 +99,6 @@ sudo python3 blocker.py
 - Instagram
 - TikTok
 - Snapchat
-- LinkedIn
 - Pinterest
 - Reddit
 - YouTube
@@ -117,26 +116,39 @@ sudo python3 blocker.py
 
 ## 🖼️ Screenshots
 
-> Add your screenshots here after running the application.
-
 - Dashboard view
 - Block websites selection window
 - Unblock websites window
 - Password prompt window
+
+Picture 1.png
+picture 2.png
+picture 3.png
+picture 4.png
+picture 5.png
+picture 6.png
+
+
 
 ---
 
 ## 📁 Suggested Folder Structure
 
 ```bash
-Website-Blocker-Pro/
-├── blocker.py
+Website-Blocker-System/
+├── main.py
 ├── README.md
+├── LICENSE
+└── blocker.log
+└── password.txt
 └── assets/
-    ├── dashboard.png
-    ├── block-window.png
-    ├── unblock-window.png
-    └── password-prompt.png
+    ├── Picture 1.png
+    ├── Picture 2.png
+    ├── Picture 3.png
+    └── Picture 4.png
+    ├── Picture 5.png
+    └── Picture 6.png
+
 ```
 
 ---
