@@ -202,31 +202,31 @@ More websites can easily be added.
 
 ## 🔑 Login Screen
 
-![Login](assets/Picture2.png)
+![Login](assets/Picture2.PNG)
 
 ---
 
 ## 🌐 Website Selection
 
-![Block](assets/Picture3.png)
+![Block](assets/Picture3.PNG)
 
 ---
 
 ## 🚫 Blocked Websites
 
-![Unblock](assets/picture4.png)
+![Unblock](assets/picture4.PNG)
 
 ---
 
 ## 🔒 Password Window
 
-![Password](assets/picture5.png)
+![Password](assets/picture5.PNG)
 
 ---
 
 ## 📜 Activity Log
 
-![Logs](assets/picture6.png)
+![Logs](assets/picture6.PNG)
 
 ---
 
