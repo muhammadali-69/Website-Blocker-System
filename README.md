@@ -164,11 +164,19 @@ This project is licensed under the MIT License.
 See the `LICENSE` file for details.
 
 ---
-## ⭐ Support
+### ⭐ Support
 
-If you find this project useful:
 
-- Star the repository.
-- Fork the project.
-- Share it with others.
-- Contribute improvements.
+If you like this project:
+
+- ⭐ Star the repository
+
+- 🍴 Fork it
+
+- 📢 Share it
+
+
+---
+
+
+**Made with ❤️ for Indus Week 2026 Hackathon**
