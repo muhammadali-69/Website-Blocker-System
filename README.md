@@ -57,13 +57,13 @@ It modifies the system `hosts` file, redirects chosen domains to `127.0.0.1`, an
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/website-blocker-pro.git
-cd website-blocker-pro
+git clone https://github.com/your-username/Website-Blocker-System.git
+cd Website-Blocker-System
 ```
 
 ### 2. Run the application
 ```bash
-python blocker.py
+python main.py
 ```
 
 ### 3. Linux/macOS
