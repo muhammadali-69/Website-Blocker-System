@@ -197,7 +197,7 @@ More websites can easily be added.
 
 ## 🏠 Dashboard
 
-![Dashboard](assets/Picture1.png)
+![Dashboard](assets/picture1.png)
 
 ---
 
