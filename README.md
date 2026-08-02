@@ -202,13 +202,13 @@ More websites can easily be added.
 
 ## 🔑 Login Screen
 
-![Login](assets/Picture2.PNG)
+![Login](assets/picture2.PNG)
 
 ---
 
 ## 🌐 Website Selection
 
-![Block](assets/Picture3.PNG)
+![Block](assets/picture3.PNG)
 
 ---
 
