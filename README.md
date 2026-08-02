@@ -474,7 +474,7 @@ Please refer to the **LICENSE** file for complete details.
 
 - **GitHub:** https://github.com/muhammadali-69
 
-> *(Add your LinkedIn or portfolio here if you'd like.)*
+> **LinkedIn:** www.linkedin.com/in/muhammad-ali15
 
 ---
 
